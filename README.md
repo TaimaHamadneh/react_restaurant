@@ -63,4 +63,3 @@ movie-stream/
 - **React.js**: JavaScript library for building user interfaces.
 - **CSS**: Custom styles for layout and design.
 - **FontAwesome**: Icons used in the UI.
-- **Google Fonts**: `Quicksand` font for a modern and clean look.
