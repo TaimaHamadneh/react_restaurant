@@ -1,0 +1,89 @@
+.app__header {
+    background-color: var(--color-black);
+    padding-right: 0;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 100%;
+    padding-right: 0;
+}
+
+.app__buttons {
+    display: flex;
+    gap: 20px; 
+}
+
+.order__button {
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    color: #d4003e;
+    padding: 10px 20px;
+    font-family: var(--font-base);
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 120px;
+    box-shadow: 0 4px 8px #d4003e;
+}
+
+.rder__button:hover {
+    background-color: var(--color-golden);
+    color: var(--color-black);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4)
+}
+
+.reservice__button {
+    background-color: #F5004F;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: var(--font-base);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 120px;
+}
+
+.reservice__button:hover {
+    background-color: #d4003e;
+}
+
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
